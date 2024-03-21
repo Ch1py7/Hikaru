@@ -7,7 +7,7 @@ export const About: FC = (): ReactElement => {
     <S.About>
       <S.AboutContainer>
         <S.AboutHeaders>
-          Quienes somos?
+          ¿Quienes somos?
         </S.AboutHeaders>
         <S.AboutInformation width={'80rem'}>
           <S.AboutDesc>Somos Preparatoria Marsella, una Institucion de Educacion Media Superior en el estado, avalada por el Instituto de Educacion de Aguascalientes, con un nivel academico de excelencia, acorde a las necesidades actuales, ya que nuestro equipo de traajo esta conformado por prfesionales en la educacion en constante actualizacion</S.AboutDesc>

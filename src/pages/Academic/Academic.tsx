@@ -8,10 +8,10 @@ export const Academic: FC = (): ReactElement => {
       <S.AcademicContainer>
         <S.AcademicApart>
           <S.AcademicTitle>ACADÉMICA</S.AcademicTitle>
-          <S.AcademicDesc>Nuestros programas están incorporados a la Universidad de Guadalajara.</S.AcademicDesc>
-          <S.AcademicDesc>El sistema por competencias ayuda a nuestros alumnos a adquirir conocimientos que se relacionan con la vida diaria, dando así las herramientas necesarias para responder a las necesidades del día a día.</S.AcademicDesc>
-          <S.AcademicDesc>Nuestros profesores se encuentran capacitados en competencias docentes por la UdeG, cuentan con diplomados y certificaciones de la SEP otorgando a los alumnos el máximo desempeño posible.</S.AcademicDesc>
-          <S.AcademicDesc>Contamos con departamento de orientación educativa, apoyo psicológico, departamento de tutorías y unidad de protección civil donde los alumnos pueden expandir su conocimiento y vivir una mejor experiencia educativa.</S.AcademicDesc>
+          <S.AcademicDesc>La Preparatoria Marsella se posiciona como una institución de Educación<br />Media Superior en el estado,
+            respaldada por el Instituto de Educación de <br />Aguascalientes, destacando por su nivel académico sobresaliente que<br />
+            responde eficazmente a las demandas contemporáneas. Nuestro equipo <br />detrabajo está compuesto por profesionales
+            en el campo educativo,<br />comprometidos con una formación continua y actualizada</S.AcademicDesc>
         </S.AcademicApart>
       </S.AcademicContainer>
       <S.AcademicContainer>

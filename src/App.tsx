@@ -1,5 +1,6 @@
+import { Footer } from 'components/Footer'
 import { NavBar } from 'components/NavBar'
-import { About, Contact, Academic } from 'pages'
+import { About, Contact, Academic, Home } from 'pages'
 import { FC, ReactElement } from 'react'
 import { paths } from 'utils'
 
@@ -11,6 +12,8 @@ export const App: FC = (): ReactElement => {
       {pathname === paths.about && <About />}
       {pathname === paths.contact && <Contact />}
       {pathname === paths.academics && <Academic />}
+      {pathname === paths.home && <Home />}
+      <Footer />
     </>
   )
 }

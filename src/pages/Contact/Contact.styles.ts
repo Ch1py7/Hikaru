@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react'
 
 export const Contact = styled.div`
   margin: 6rem auto 0;
-  height: 100%;
+  height: calc(100vh - 26rem);
   max-width: 120rem;
 `
 
