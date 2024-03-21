@@ -31,12 +31,6 @@ export const NavBar: FC = (): ReactElement => {
         <S.List>
           <S.Anchor location={path === paths.academics} href={paths.academics}>ACADEMICA</S.Anchor>
         </S.List>
-        <S.List>
-          <S.Anchor location={path === paths.admissions} href={paths.admissions}>
-            COSTOS Y <br />
-            CALENDARIOS
-          </S.Anchor>
-        </S.List>
       </S.OList>
     </S.NavBar>
   )

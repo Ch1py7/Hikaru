@@ -5,7 +5,16 @@ import * as S from './About.styles'
 export const About: FC = (): ReactElement => {
   return (
     <S.About>
-      <div>
+      <S.AboutContainer>
+        <S.AboutHeaders>
+          Quienes somos?
+        </S.AboutHeaders>
+        <S.AboutInformation width={'80rem'}>
+          <S.AboutDesc>Somos Preparatoria Marsella, una Institucion de Educacion Media Superior en el estado, avalada por el Instituto de Educacion de Aguascalientes, con un nivel academico de excelencia, acorde a las necesidades actuales, ya que nuestro equipo de traajo esta conformado por prfesionales en la educacion en constante actualizacion</S.AboutDesc>
+          <S.Image height='14rem' src='/about.png' />
+        </S.AboutInformation>
+      </S.AboutContainer>
+      <S.AboutContainer>
         <S.AboutHeaders>
           Nuestros valores
         </S.AboutHeaders>
@@ -31,22 +40,22 @@ export const About: FC = (): ReactElement => {
             image='/service.png'
           />
         </S.AboutResponsive>
-      </div>
-      <div>
+      </S.AboutContainer>
+      <S.AboutContainer>
         <S.AboutHeaders>
           Experiencias
         </S.AboutHeaders>
         <S.AboutResponsive min='30rem' spaceType='auto-fill'>
-          <S.Image src='/exp1.jpg' />
-          <S.Image src='/exp2.jpg' />
-          <S.Image src='/exp3.jpg' />
-          <S.Image src='/exp4.jpg' />
-          <S.Image src='/exp5.jpg' />
-          <S.Image src='/exp6.jpg' />
-          <S.Image src='/exp7.jpg' />
-          <S.Image src='/exp8.jpg' />
+          <S.Image height='20rem' src='/exp1.jpg' />
+          <S.Image height='20rem' src='/exp2.jpg' />
+          <S.Image height='20rem' src='/exp3.jpg' />
+          <S.Image height='20rem' src='/exp4.jpg' />
+          <S.Image height='20rem' src='/exp5.jpg' />
+          <S.Image height='20rem' src='/exp6.jpg' />
+          <S.Image height='20rem' src='/exp7.jpg' />
+          <S.Image height='20rem' src='/exp8.jpg' />
         </S.AboutResponsive>
-      </div>
+      </S.AboutContainer>
     </S.About>
   )
 }

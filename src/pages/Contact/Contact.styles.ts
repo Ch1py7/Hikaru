@@ -2,13 +2,21 @@ import styled from 'styled-components'
 import { Icon } from '@iconify/react'
 
 export const Contact = styled.div`
-  margin: 0 auto;
+  margin: 6rem auto 0;
+  height: 100%;
   max-width: 120rem;
 `
 
 export const ContactTitle = styled.h2`
   text-align: center;
   font-size: 3rem;
+`
+
+export const ContactInfoContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 `
 
 export const ContactInfo = styled.div`
@@ -19,6 +27,11 @@ export const ContactInfo = styled.div`
 
 export const ContactPhrase = styled.p`
   font-size: 2rem;
+`
+
+export const ContactImage = styled.img`
+  max-height: 20rem;
+  border-radius: 1rem;
 `
 
 export const ContactIcon = styled(Icon)`
